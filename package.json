@@ -1,0 +1,15 @@
+{
+  "name": "aquamine-ai",
+  "version": "1.0.0",
+  "description": "AquaMine AI - plataforma inteligente de gestao de agua para mineracao",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "local-shim",
+    "react": "local-hooks-runtime",
+    "chart.js": "local-compatible-renderer"
+  }
+}
