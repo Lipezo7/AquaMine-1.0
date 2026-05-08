@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0"
-echo Iniciando AquaMine AI...
+echo Iniciando AquaMine...
 echo.
 if exist "C:\Users\Filipe\AppData\Local\OpenAI\Codex\bin\node.exe" (
   "C:\Users\Filipe\AppData\Local\OpenAI\Codex\bin\node.exe" server.js
